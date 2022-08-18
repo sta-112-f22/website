@@ -4,12 +4,14 @@ on:
   branch: main
 
 jobs:
-  quarto-setup:
+  quarto_render:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: quarto-dev/quarto-actions/setup@v2
-      - run: |
-          quarto --version
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
       
       - name: Publish to GitHub Pages (and render)
         uses: quarto-dev/quarto-actions/publish@v2
