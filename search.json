@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introduction to Regression and Data Science",
+    "section": "",
+    "text": "Texts\nThe main text book is: Stat 2: Building Models for a World of Data by Cannon, Cobb, Hartlaub, Legler, Lock, Moore, Rossman, Witmer. Please feel free to purchase a used copy of this book. We will supplement this with text freely available online: R for Data Science by Grolemund, Wickham OpenIntro Statistics by Diez, Barr, Çetinkaya-Rundel.\n\n\nMaterials\nThis class is very hands on; be sure to bring a fully charged laptop to every class."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": " Schedule",
+    "section": "",
+    "text": "week\n      date\n      topic\n      slides\n      appex\n      assignment\n      assessment\n    \n  \n  \n    1\n23 August\nWelcome to Statistical Models\n\n\n\n\n    1\n25 August\nLab 01: R you ready?\n\n\n\n\n    2\n30 August\nDesign Principles of Data Analysis\n\n\n\n\n    \n\nTidy Data\n\n\n\n\n    \n\nData and visualization\n\n\n\n\n    2\n1 September\nLab 02: Data in the wild\n\n\n\n\n    3\n6 September\nSimple Linear Regression\n\n\n\n\n    3\n8 September\nLab 03: Simple Linear Regression\n\n\n\n\n    4\n13 September\nEvaluating Models\n\n\n\n\n    \n\nInfluential points\n\n\n\n\n    4\n15 September\nWhat if it's not a line? Data transformations!\n\n\n\n\n    5\n20 September\nDrawing Inference\n\n\n\n\n    \n\nPartitioning variability\n\n\n\n\n    5\n22 September\nRegression and correlation\n\n\n\n\n    \n\nPrediction intervals\n\n\n\n\n    6\n27 September\nLab 04: Interpreting Results\n\n\n\n\n    6\n29 September\nReview\n\n\n\n\n    7\n4 October\nMidterm 01\n\n\n\n\n    7\n6 October\nMultiple linear regression\n\n\n\n\n    8\n11 October\nVariable types\n\n\n\n\n    \n\nVariable transformations\n\n\n\n\n    8\n13 October\nFall Break [No Class]\n\n\n\n\n    9\n18 October\nModel comparison\n\n\n\n\n    9\n20 October\nLab 05: Multiple regression in practice\n\n\n\n\n    10\n25 October\nWhat are the odds?\n\n\n\n\n    10\n27 October\nOdds Ratios\n\n\n\n\n    \n\nAssessing logistic regression conditions\n\n\n\n\n    11\n1 November\nEvaluating logistic regression models\n\n\n\n\n    \n\nLogistic regression inference\n\n\n\n\n    11\n3 November\nLab 06: Inference with logistic regression\n\n\n\n\n    12\n8 November\nMultiple logistic regression\n\n\n\n\n    12\n10 November\nMidterm 02\n\n\n\n\n    13\n15 November\nDiscuss final project\n\n\n\n\n    13\n17 November\nCommunicating a data analysis\n\n\n\n\n    14\n22 November\nInteractive data visualization and reporting\n\n\n\n\n    14\n24 November\nThanksgiving [No Class]\n\n\n\n\n    15\n29 November\nFinal Presentations\n\n\n\n\n    15\n1 December\nFinal Presentations"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": " Policies",
+    "section": "",
+    "text": "This class is meant to be hands on. Therefore, you are responsible for reading pertinent material prior to each class."
+  },
+  {
+    "objectID": "syllabus.html#attendance",
+    "href": "syllabus.html#attendance",
+    "title": " Policies",
+    "section": "Attendance",
+    "text": "Attendance\nIf you feel unwell please do not come to class. All class material will be posted after class and I would be happy to meet outside of our class time to help you catch up if needbe."
+  },
+  {
+    "objectID": "syllabus.html#diversity-inclusiveness",
+    "href": "syllabus.html#diversity-inclusiveness",
+    "title": " Policies",
+    "section": "Diversity & Inclusiveness",
+    "text": "Diversity & Inclusiveness\nIt is my intent that students from all diverse backgrounds and perspectives be well-served by this course, that students’ learning needs be addressed both in and out of class, and that the diversity that the students bring to this class be viewed as a resource, strength and benefit. It is my intent to present materials and activities that are respectful of diversity: gender identity, sexuality, disability, age, socioeconomic status, ethnicity, race, nationality, religion, and culture. Your suggestions are encouraged and appreciated. Please let me know ways to improve the effectiveness of the course for you personally, or for other students or student groups.\nFurthermore, I would like to create a learning environment for my students that supports a diversity of thoughts, perspectives and experiences, and honors your identities (including gender identity, sexuality, disability, age, socioeconomic status, ethnicity, race, nationality, religion, and culture.) To help accomplish this:\n\nIf you have a name and/or set of pronouns that differ from those that appear in your official Wake Forest records, please let me know!\nIf any of our class meetings conflict with your religious events, please let me know so that we can make arrangements for you.\nIf you feel like your performance in the class is being impacted by your experiences outside of class, please don’t hesitate to come and talk with me. I want to be a resource for you. If you prefer to speak with someone outside of the course, your academic dean is an excellent resource.\nI (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it."
+  },
+  {
+    "objectID": "syllabus.html#disability-policy",
+    "href": "syllabus.html#disability-policy",
+    "title": " Policies",
+    "section": "Disability Policy",
+    "text": "Disability Policy\nStudents with disabilities who believe that they may need accommodations in the class are encouraged to contact Learning Assistance Center & Disability Services at 336-758-5929 or lacds@wfu.edu as soon as possible to better ensure that such accommodations are implemented in a timely fashion."
+  },
+  {
+    "objectID": "syllabus.html#how-to-get-help",
+    "href": "syllabus.html#how-to-get-help",
+    "title": " Policies",
+    "section": "How to get help",
+    "text": "How to get help\n\nDiscussion:\nAll course discussion will be on Canvas.\nGuidelines for posting questions:\n\nFirst search existing posts (open or closed) for answers. If the question has already been answered, you’re done! If there is an open post, feel free to contribute to it.\nGive your issue an informative title.\n\nGood: “Error: could not find function”ggplot”\nBad: “R giving errors”, “help me!”, “aaaarrrrrgh!” Note that you can edit an issue’s title after it’s been posted.\n\n\n\n\nMath & Stats Center:\n\nMake an appointment: https://mathandstatscenter.wfu.edu/"
+  },
+  {
+    "objectID": "syllabus.html#honor-code",
+    "href": "syllabus.html#honor-code",
+    "title": " Policies",
+    "section": "Honor code",
+    "text": "Honor code\nAcademic dishonesty will not be tolerated. For other information on these matters, please consult the Code of Conduct. For Academic issues please see the College Judicial System.\n\nSharing code & responses\n\nThere are many online resources for sharing code (for example, StackOverflow) - you may use these resources but must explicitly cite where you have obtained code (both code you used directly and “paraphrased” code / code used as inspiration). Any reused code that is not explicitly cited will be treated as plagiarism.\nRather than copying someone else’s work, ask for help. You are not alone in this course!"
+  },
+  {
+    "objectID": "syllabus.html#course-components",
+    "href": "syllabus.html#course-components",
+    "title": " Policies",
+    "section": "Course components",
+    "text": "Course components\n\nReflections\nYou will have occasional reflections - these will be completed on Canvas. They will open on Wednesday and be due the following Monday at 5pm ET.\n\n\nApplication exercises\nThese will start in class and should be finished by 5pm ET the following day.\n\n\nHomework\nProblem sets from the textbook will be assigned periodically, potentially along with additional questions. You are welcome to work on these with other members of this class. If you do so, please acknowledge your collaborator(s) at the top of your assignment, for example: “Collaborators: Gertrude Cox, Florence Nightingale David”. Failure to acknowledge collaborators will result in a grade of 0. You may not copy answers directly from another student. If you copy someone else’s work, both parties will receive a grade of 0.\n\n\nLabs\nThe objective of the labs is to give you hands on experience with data analysis using modern statistical software. The labs will also provide you with tools that you will need to complete the project successfully. You may work with other students on the labs, using the same policy as the Homeworks.\n\n\nCheck-ins\nWe will periodically have assessments to check in with our learning goals."
+  },
+  {
+    "objectID": "syllabus.html#midterm-exam",
+    "href": "syllabus.html#midterm-exam",
+    "title": " Policies",
+    "section": "Midterm Exam",
+    "text": "Midterm Exam\nWe have two midterm exams."
+  },
+  {
+    "objectID": "syllabus.html#grading",
+    "href": "syllabus.html#grading",
+    "title": " Policies",
+    "section": "Grading",
+    "text": "Grading\nYour final grade will be comprised of the following:\n\n\n\nApplication exercises\n5%\n\n\nMidterm 01\n20%\n\n\nMidterm 02\n20%\n\n\nCheck-ins\n20%\n\n\nHomework\n10%\n\n\nLabs\n10%\n\n\nFinal Project\n15%\n\n\n\nGrades conversion:\n\n\n\nLetter\nNumeric\n\n\n\n\nA\n95 +\n\n\nA-\n90 - 94\n\n\nB+\n87 - 89\n\n\nB\n83 - 86\n\n\nB-\n80 - 82\n\n\nC+\n77 - 79\n\n\nC\n73 - 76\n\n\nC-\n70 - 72\n\n\nD+\n67 - 69\n\n\nD\n65 - 66\n\n\nF\nBelow 65"
+  },
+  {
+    "objectID": "syllabus.html#late-missed-work",
+    "href": "syllabus.html#late-missed-work",
+    "title": " Policies",
+    "section": "Late / missed work",
+    "text": "Late / missed work\n\nLate work policy for labs:\n\nlate, but within 24 hours of due date/time: -50%\nany later: no credit\n\nNo make-up assessments will be given.\nAll regrade requests must be discussed with the professor within one week of receiving your grade. There will be no grade changes after the final class."
+  }
+]

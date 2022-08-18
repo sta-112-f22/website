@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Regression and Data Science - Introduction to Regression and Data Science</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href=".//img/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<style>
+    .quarto-title-block .quarto-title-banner {
+      background-image: url(img/head.jpg);
+background-size: cover;
+    }
+    </style>
+
+
+<meta property="og:title" content="Regression and Data Science - Introduction to Regression and Data Science">
+<meta property="og:description" content="This course introduces data analysis through statistical computing in R, least-squares and logistic regression, model selection, and data visualization.">
+<meta property="og:image" content="https://sta-112-f22.lucymcgowan.com/img/twitter.png">
+<meta property="og:site-name" content="Regression and Data Science">
+<meta property="og:locale" content="en_US">
+<meta property="og:image:height" content="670">
+<meta property="og:image:width" content="1200">
+<meta name="twitter:title" content="Regression and Data Science - Introduction to Regression and Data Science">
+<meta name="twitter:description" content="This course introduces data analysis through statistical computing in R, least-squares and logistic regression, model selection, and data visualization.">
+<meta name="twitter:image" content="https://sta-112-f22.lucymcgowan.com/img/twitter.png">
+<meta name="twitter:creator" content="@LucyStats">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="670">
+<meta name="twitter:image-width" content="1200">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Regression and Data Science</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./schedule.html"><i class="fa-solid fa-calendar" aria-hidden="true"></i> Schedule</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./syllabus.html"><i class="fa-solid fa-gavel" aria-hidden="true"></i> Policies</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./rstudio.deac.ar53.wfu.edu:8787"><i class="fa-solid fa-cloud" aria-hidden="true"></i> RStudio Pro</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Introduction to Regression and Data Science</h1>
+            <p class="subtitle lead">This course introduces data analysis through statistical computing in R, least-squares and logistic regression, model selection, and data visualization.</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<section id="teaching-team-and-office-hours" class="level3">
+<h3 class="anchored" data-anchor-id="teaching-team-and-office-hours">Teaching team and office hours</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th><span></span></th>
+<th><span></span></th>
+<th><span></span></th>
+<th><span></span></th>
+<th><span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Instructor</td>
+<td><a href="https://www.lucymcgowan.com">Dr.&nbsp;Lucy D’Agostino McGowan</a></td>
+<td><a href="mailto:mcgowald@wfu.edu" title="email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a> &nbsp; <a href="https://github.com/LucyMcGowan" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a> &nbsp; <a href="https://twitter.com/LucyStats" title="Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a></td>
+<td>Wednesday 10:00a - 11:00a <br> Thursday 10:00a - 11:00a</td>
+<td>Manchester 342</td>
+</tr>
+<tr class="even">
+<td>TA</td>
+<td><p>TBA</p></td>
+<td><a href="mailto:TBA" title="email"><i class="fa fa-envelope"></i></a></td>
+<td>Study session <br> TBA</td>
+<td>Kirby 120</td>
+</tr>
+<tr class="odd">
+<td><span></span></td>
+<td><a href="https://mathandstatscenter.wfu.edu/">Math &amp; Stats Center</a></td>
+<td><a href="mailto:mathandstatscenter@wfu.edu" title="email"><i class="fa fa-envelope"></i></a> &nbsp;</td>
+<td>By appointment</td>
+<td>Kirby Hall 117</td>
+</tr>
+</tbody>
+</table>
+<div class="grid">
+<div class="g-col-12 g-col-sm-6 g-col-md-4">
+<p><br></p>
+<section id="fa-university" class="level1 icon">
+<h1 class="icon"><i class="fa-solid fa-university" aria-hidden="true"></i></h1>
+<section id="var-course.location" class="level5 center">
+<h5 class="center anchored" data-anchor-id="var-course.location">Manchester 124</h5>
+</section>
+</section>
+</div>
+<div class="g-col-12 g-col-sm-6 g-col-md-4">
+<p><br></p>
+<section id="fa-calendar" class="level1 icon">
+<h1 class="icon"><i class="fa-solid fa-calendar" aria-hidden="true"></i></h1>
+<section id="var-course.time1" class="level5 center">
+<h5 class="center anchored" data-anchor-id="var-course.time1"><strong>Section B</strong> <br>Tues/Thurs 12:30p-1:45p</h5>
+</section>
+</section>
+</div>
+<div class="g-col-12 g-col-sm-6 g-col-md-4">
+<p><br></p>
+<section id="fa-calendar-1" class="level1 icon">
+<h1 class="icon"><i class="fa-solid fa-calendar" aria-hidden="true"></i></h1>
+<section id="var-course.time2" class="level5 center">
+<h5 class="center anchored" data-anchor-id="var-course.time2"><strong>Section C</strong> <br>Tues/Thurs 2:00p-3:15p</h5>
+</section>
+</section>
+</div>
+</div>
+</section>
+<section id="texts" class="level3">
+<h3 class="anchored" data-anchor-id="texts">Texts</h3>
+<p>The main text book is: <a href="https://www.amazon.com/STAT2-Premium-Ann-R-Cannon/dp/1464148260/">Stat 2: Building Models for a World of Data</a> by Cannon, Cobb, Hartlaub, Legler, Lock, Moore, Rossman, Witmer. Please feel free to purchase a used copy of this book. We will supplement this with text freely available online: <a href="http://r4ds.had.co.nz/">R for Data Science</a> by Grolemund, Wickham <a href="https://www.openintro.org/stat/os4.php">OpenIntro Statistics</a> by Diez, Barr, Çetinkaya-Rundel.</p>
+</section>
+<section id="materials" class="level3">
+<h3 class="anchored" data-anchor-id="materials">Materials</h3>
+<p>This class is very hands on; be sure to bring a fully charged laptop to every class.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Content <i class="fa-brands fa-creative-commons" aria-hidden="true"></i> 2022 by <a href="https://www.lucymcgowan.com">Lucy D’Agostino McGowan</a></div>   
+    <div class="nav-footer-right">Made with <i class="fa-brands fa-r-project" aria-hidden="true"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://www.github.com/andrewheiss/evalf22.classes.andrewheiss.com">View the source at <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a></div>
+  </div>
+</footer>
+
+
+
+</body></html>
