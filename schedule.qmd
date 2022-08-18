@@ -1,0 +1,47 @@
+---
+title: "{{< fa calendar >}} Schedule"
+---
+
+**Note**: The timeline of topics and assignments might be updated throughout the semester. 
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+library(googlesheets4)
+library(gt)
+library(tidyverse)
+gs4_deauth()
+d <- read_sheet("https://docs.google.com/spreadsheets/d/11pMsJj3r4oD9YtYJCyrb68iZd-m69b0stuWGdR_cS2k/edit?usp=sharing")
+```
+
+```{r, echo = FALSE}
+d %>% 
+  mutate(
+    date = as.Date(date),
+    week = ifelse(is.na(week), "", week)) %>%
+  gt() %>%
+  text_transform(cells_body(columns = c(slides)),
+                 fn = function(x){
+                   ifelse(is.na(x), fontawesome::fa('laptop', fill_opacity = 0.1), 
+                          glue::glue("<a href = {x}>{fontawesome::fa('laptop')}</a>"))
+                 }) %>%
+  text_transform(cells_body(columns = c(appex)),
+                 fn = function(x){
+                   ifelse(is.na(x), fontawesome::fa('users', fill_opacity = 0.1),
+                          glue::glue("<a href = {x}>{fontawesome::fa('users')}</a>"))
+                   
+                 }) %>%
+  text_transform(cells_body(columns = c(assignment)),
+                 fn = function(x){
+                   ifelse(is.na(x), fontawesome::fa('sticky-note', fill_opacity = 0.1), 
+                          glue::glue("<a href = {x}>{fontawesome::fa('sticky-note')}</a>"))
+                   
+                 }) %>%
+  text_transform(cells_body(columns = c(assessment)),
+                 fn = function(x){
+                   ifelse(is.na(x), fontawesome::fa('file-alt', fill_opacity = 0.1), 
+                          glue::glue("<a href = {x}>{fontawesome::fa('file-alt')}</a>"))
+                 }) %>%
+  fmt_date(date, date_style = 9) %>%
+  sub_missing(columns = date, missing_text = "")
+
+
+```

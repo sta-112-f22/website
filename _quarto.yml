@@ -1,0 +1,46 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+  resources:
+    - "img/"
+    - "www/"
+format:
+  html:
+    theme:
+      - united
+      - www/style.scss
+    toc: true
+    highlight-style: monokai
+
+execute:
+  freeze: auto
+
+website:
+  title: "Regression and Data Science"
+  site-url: "https://sta-112-f22.lucymcgowan.com"
+  description-meta: "This course introduces data analysis through statistical computing in R, least-squares and logistic regression, model selection, and data visualization."
+  navbar:
+    pinned: true
+    background: "#1F7349"
+    right:
+      - schedule.qmd
+      - syllabus.qmd
+      - href: "rstudio.deac.ar53.wfu.edu:8787"
+        text: "{{< fa cloud >}} RStudio Pro"
+    
+
+  page-footer:
+    left: "Content {{< fa brands creative-commons >}} {{< var course.copyright_year >}} by [{{< var instructor.name_no_title >}}]({{< var instructor.url >}})"
+    right: |
+      Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)<br>
+      [View the source at {{< fa brands github >}} GitHub]({{< var course.github >}})
+
+  favicon: "/img/favicon.png"
+  twitter-card:
+    image: "/img/twitter.png"
+    card-style: summary_large_image
+    creator: "@LucyStats"
+  open-graph:
+    image: "/img/twitter.png"
+    locale: en_US

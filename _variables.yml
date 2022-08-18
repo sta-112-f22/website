@@ -1,0 +1,43 @@
+author: Lucy D'Agostino McGowan
+
+instructor:
+  name: Dr. Lucy D'Agostino McGowan
+  name_no_title: Lucy D'Agostino McGowan
+  email: mcgowald@wfu.edu
+  url: "https://www.lucymcgowan.com"
+  twitter: LucyStats
+  github: LucyMcGowan
+  office: "Manchester 342"
+  appointment_url: https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZUUVd2RzBVa053fGRlZmF1bHR8NGM3N2ZjY2EzNDI1OTI0ODVlYjYzYWZlNTg5NzI2Y2M
+
+ta: 
+  name: TBA
+  email: TBA
+  time: TBA
+  location: "Kirby 120"
+
+course:
+  title: "Introduction to Regression and Data Science"
+  subtitle: "This course introduces data analysis through statistical computing in R, least-squares and logistic regression, model selection, and data visualization."
+  number: "STA 112"
+  semester: "Fall 2022"
+  time1: "**Section B** <br>Tues/Thurs 12:30p-1:45p"
+  time2: "**Section C** <br>Tues/Thurs 2:00p-3:15p"
+  location: "Manchester 124"
+  github: "https://www.github.com/andrewheiss/evalf22.classes.andrewheiss.com"
+  url: "https://evalf22.classes.andrewheiss.com"
+  copyright_year: "2022"
+  text: | 
+    The main text book is: [Stat 2: Building Models for a World of Data](https://www.amazon.com/STAT2-Premium-Ann-R-Cannon/dp/1464148260/)  by Cannon, Cobb, Hartlaub, Legler, Lock, Moore, Rossman, Witmer. Please feel free to purchase a used copy of this book.
+    We will supplement this with text freely available online:
+    [R for Data Science](http://r4ds.had.co.nz/) by Grolemund, Wickham
+    [OpenIntro Statistics](https://www.openintro.org/stat/os4.php) by Diez, Barr, Çetinkaya-Rundel.
+
+
+university:
+  name: Wake Forest University
+  url: "https://www.wfu.edu"
+
+school:
+  name: Department of Statistical Sciences
+  url: "https://stats.wfu.edu/"

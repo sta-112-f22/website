@@ -1,0 +1,128 @@
+---
+title: "{{< fa gavel >}} Policies"
+---
+
+## Class
+
+This class is meant to be *hands on*.
+Therefore, you are responsible for reading pertinent material prior to each class.
+
+## Attendance
+
+If you feel unwell please do not come to class. All class material will be posted after class and I would be happy to meet outside of our class time to help you catch up if needbe. 
+
+## Diversity & Inclusiveness
+
+It is my intent that students from all diverse backgrounds and perspectives be well-served by this course, that students' learning needs be addressed both in and out of class, and that the diversity that the students bring to this class be viewed as a resource, strength and benefit.
+It is my intent to present materials and activities that are respectful of diversity: gender identity, sexuality, disability, age, socioeconomic status, ethnicity, race, nationality, religion, and culture.
+Your suggestions are encouraged and appreciated.
+Please let me know ways to improve the effectiveness of the course for you personally, or for other students or student groups.
+
+Furthermore, I would like to create a learning environment for my students that supports a diversity of thoughts, perspectives and experiences, and honors your identities (including gender identity, sexuality, disability, age, socioeconomic status, ethnicity, race, nationality, religion, and culture.) To help accomplish this:
+
+-   If you have a name and/or set of pronouns that differ from those that appear in your official Wake Forest records, please let me know!
+-   If any of our class meetings conflict with your religious events, please let me know so that we can make arrangements for you.
+-   If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. I want to be a resource for you. If you prefer to speak with someone outside of the course, your academic dean is an excellent resource.
+-   I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it.
+
+## Disability Policy
+
+Students with disabilities who believe that they may need accommodations in the class are encouraged to contact Learning Assistance Center & Disability Services at 336-758-5929 or [lacds\@wfu.edu](mailto:lacds@wfu.edu) as soon as possible to better ensure that such accommodations are implemented in a timely fashion.
+
+## How to get help
+
+#### Discussion:
+
+All course discussion will be on Canvas.
+
+Guidelines for posting questions:
+
+* First search existing posts (open or closed) for answers. If the question has already been answered, you're done! If there is an open post, feel free to contribute to it.
+* Give your issue an informative title.
+  * Good: "Error: could not find function "ggplot"
+  * Bad: "R giving errors", "help me!", "aaaarrrrrgh!" Note that you can edit an issue’s title after it's been posted.
+
+### Math & Stats Center:
+
+-   Make an appointment: <https://mathandstatscenter.wfu.edu/>
+
+## Honor code
+
+Academic dishonesty will not be tolerated.
+For other information on these matters, please consult the [Code of Conduct](https://studentconduct.wfu.edu/undergraduate-student-handbook/).
+For Academic issues please see the [College Judicial System](https://studentconduct.wfu.edu/the-judicial-council/).
+
+### Sharing code & responses
+
+-   There are many online resources for sharing code (for example, StackOverflow) - you **may** use these resources but **must explicitly cite** where you have obtained code (both code you used directly and "paraphrased" code / code used as inspiration). Any reused code that is not explicitly cited will be treated as plagiarism.
+-   Rather than copying someone else's work, ask for help. You are not alone in this course!
+
+## Course components
+
+### Reflections
+
+You will have occasional reflections - these will be completed on Canvas.
+They will open on Wednesday and be due the following Monday at 5pm ET.
+
+### Application exercises
+
+These will start in class and should be finished by 5pm ET the following day.
+
+### Homework 
+
+Problem sets from the textbook will be assigned periodically, potentially along with additional questions. You are welcome to work on these with other members of this class. If you do so, please acknowledge your collaborator(s) at the top of your assignment, for example: "Collaborators: Gertrude Cox, Florence Nightingale David". Failure to acknowledge collaborators will result in a grade of 0. You **may not** copy answers **directly** from another student. If you copy someone else's work, both parties will receive a grade of 0.
+
+### Labs
+
+The objective of the labs is to give you hands on experience with data analysis using modern statistical software. The labs will also provide you with tools that you will need to complete the project successfully. You may work with other students on the labs, using the same policy as the Homeworks.
+
+### Check-ins
+
+We will periodically have assessments to check in with our learning goals.
+
+## Midterm Exam
+
+We have two midterm exams.
+
+## Grading
+
+Your final grade will be comprised of the following:
+
+ | |
+|----------------------|----------------|
+Application exercises | 5%  
+Midterm 01 | 20%
+Midterm 02 | 20%
+Check-ins | 20%  
+Homework | 10%
+Labs | 10%  
+Final Project | 15%
+
+Grades conversion:
+
+
+| Letter | Numeric  |
+|--------|----------|
+| A      | 95 +     |
+| A-     | 90 - 94  |
+| B+     | 87 - 89  |
+| B      | 83 - 86  |
+| B-     | 80 - 82  |
+| C+     | 77 - 79  |
+| C      | 73 - 76  |
+| C-     | 70 - 72  |
+| D+     | 67 - 69  |
+| D      | 65 - 66  |
+| F      | Below 65 |
+
+## Late / missed work
+
+-   Late work policy for labs:
+
+    -   late, but within 24 hours of due date/time: -50%
+    -   any later: no credit
+
+-   No make-up assessments will be given.
+
+-   All regrade requests must be discussed with the professor within one week of receiving your grade.
+    There will be no grade changes after the final class.
