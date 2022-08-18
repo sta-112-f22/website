@@ -1,1 +1,1 @@
-Sitemap: https://sta-112-f22.lucymcgowan.com/sitemap.xml
+Sitemap: https://github.com/sta-112-f22/website/sitemap.xml
