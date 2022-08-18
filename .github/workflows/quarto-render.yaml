@@ -4,32 +4,14 @@ on:
   branch: main
 
 jobs:
-  quarto-linux:
+  quarto-setup:
     runs-on: ubuntu-latest
     steps:
       - uses: quarto-dev/quarto-actions/setup@v2
       - run: |
           quarto --version
-  quarto-windows:
-    runs-on: windows-latest
-    steps:
-      - uses: quarto-dev/quarto-actions/setup@v2
-      - run: |
-          quarto --version
-  quarto-macos:
-    runs-on: macos-latest
-    steps:
-      - uses: quarto-dev/quarto-actions/setup@v2
-      - run: |
-          quarto --version
-          
-name: Render Quarto Project
-  uses: quarto-dev/quarto-actions/render@v2
-  with:
-    to: html # If set, it will be equivalent to `quarto render --to html`
-    path: source-folder # By default, the current working dir is used i.e `quarto render .`
-
-name: Publish to GitHub Pages (and render)
-  uses: quarto-dev/quarto-actions/publish@v2
-  with:
-    target: gh-pages
+      
+      - name: Publish to GitHub Pages (and render)
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
