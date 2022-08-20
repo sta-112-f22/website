@@ -26,7 +26,7 @@ website:
     right:
       - schedule.qmd
       - syllabus.qmd
-      - href: "rstudio.deac.ar53.wfu.edu:8787"
+      - href: "https://rstudio.deac.ar53.wfu.edu:8787"
         text: "{{< fa cloud >}} RStudio Pro"
     
 
