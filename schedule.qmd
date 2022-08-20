@@ -23,7 +23,7 @@ d %>%
                    ifelse(is.na(x), fontawesome::fa('laptop', fill_opacity = 0.1), 
                           glue::glue("<a href = {x}>{fontawesome::fa('laptop')}</a>"))
                  }) %>%
-  text_transform(cells_body(columns = c(`annotated slides`)),
+  text_transform(cells_body(columns = c(notes)),
                  fn = function(x){
                    ifelse(is.na(x), fontawesome::fa('laptop', fill_opacity = 0.1), 
                           glue::glue("<a href = {x}>{fontawesome::fa('laptop')}</a>"))
