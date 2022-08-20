@@ -47,6 +47,4 @@ d %>%
                  }) %>%
   fmt_date(date, date_style = 9) %>%
   sub_missing(columns = date, missing_text = "")
-
-
 ```
