@@ -18,6 +18,11 @@ d %>%
     date = as.Date(date),
     week = ifelse(is.na(week), "", week)) %>%
   gt() %>%
+    text_transform(cells_body(columns = c(reading)),
+                 fn = function(x){
+                   ifelse(is.na(x), fontawesome::fa('book', fill_opacity = 0.1), 
+                          glue::glue("<a href = {x}>{fontawesome::fa('book')}</a>"))
+                 }) %>%
   text_transform(cells_body(columns = c(slides)),
                  fn = function(x){
                    ifelse(is.na(x), fontawesome::fa('laptop', fill_opacity = 0.1), 
