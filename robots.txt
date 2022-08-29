@@ -1,1 +1,1 @@
-Sitemap: https://github.com/sta-112-f22/website/sitemap.xml
+Sitemap: https://sta-112-f22.github.io/website/sitemap.xml

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.38">
+<meta name="generator" content="quarto-1.1.149">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -65,14 +70,14 @@ background-size: cover;
 
 <meta property="og:title" content="Regression and Data Science - Introduction to Regression and Data Science">
 <meta property="og:description" content="This course introduces data analysis through statistical computing in R, least-squares and logistic regression, model selection, and data visualization.">
-<meta property="og:image" content="https://github.com/sta-112-f22/website/img/twitter.png">
+<meta property="og:image" content="https://sta-112-f22.github.io/website/img/twitter.png">
 <meta property="og:site-name" content="Regression and Data Science">
 <meta property="og:locale" content="en_US">
 <meta property="og:image:height" content="670">
 <meta property="og:image:width" content="1200">
 <meta name="twitter:title" content="Regression and Data Science - Introduction to Regression and Data Science">
 <meta name="twitter:description" content="This course introduces data analysis through statistical computing in R, least-squares and logistic regression, model selection, and data visualization.">
-<meta name="twitter:image" content="https://github.com/sta-112-f22/website/img/twitter.png">
+<meta name="twitter:image" content="https://sta-112-f22.github.io/website/img/twitter.png">
 <meta name="twitter:creator" content="@LucyStats">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image-height" content="670">
@@ -85,9 +90,11 @@ background-size: cover;
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Regression and Data Science</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -282,7 +289,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);

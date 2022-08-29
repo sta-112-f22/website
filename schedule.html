@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.38">
+<meta name="generator" content="quarto-1.1.149">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -59,14 +64,14 @@ ul.task-list{list-style: none;}
 
 <meta property="og:title" content="Regression and Data Science -  Schedule">
 <meta property="og:description" content="Note: The timeline of topics and assignments might be updated throughout the semester.">
-<meta property="og:image" content="https://github.com/sta-112-f22/website/img/twitter.png">
+<meta property="og:image" content="https://sta-112-f22.github.io/website/img/twitter.png">
 <meta property="og:site-name" content="Regression and Data Science">
 <meta property="og:locale" content="en_US">
 <meta property="og:image:height" content="670">
 <meta property="og:image:width" content="1200">
 <meta name="twitter:title" content="Regression and Data Science -  Schedule">
 <meta name="twitter:description" content="Note: The timeline of topics and assignments might be updated throughout the semester.">
-<meta name="twitter:image" content="https://github.com/sta-112-f22/website/img/twitter.png">
+<meta name="twitter:image" content="https://sta-112-f22.github.io/website/img/twitter.png">
 <meta name="twitter:creator" content="@LucyStats">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image-height" content="670">
@@ -79,9 +84,11 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Regression and Data Science</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -135,12 +142,12 @@ ul.task-list{list-style: none;}
 <div class="cell">
 <div class="cell-output-display">
 
-<div id="flyoydxnlc" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="eqvlxdbnom" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#flyoydxnlc .gt_table {
+:where(#eqvlxdbnom) .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -165,7 +172,7 @@ ul.task-list{list-style: none;}
   border-left-color: #D3D3D3;
 }
 
-#flyoydxnlc .gt_heading {
+:where(#eqvlxdbnom) .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -177,7 +184,7 @@ ul.task-list{list-style: none;}
   border-right-color: #D3D3D3;
 }
 
-#flyoydxnlc .gt_title {
+:where(#eqvlxdbnom) .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -189,7 +196,7 @@ ul.task-list{list-style: none;}
   border-bottom-width: 0;
 }
 
-#flyoydxnlc .gt_subtitle {
+:where(#eqvlxdbnom) .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -201,13 +208,13 @@ ul.task-list{list-style: none;}
   border-top-width: 0;
 }
 
-#flyoydxnlc .gt_bottom_border {
+:where(#eqvlxdbnom) .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#flyoydxnlc .gt_col_headings {
+:where(#eqvlxdbnom) .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -222,7 +229,7 @@ ul.task-list{list-style: none;}
   border-right-color: #D3D3D3;
 }
 
-#flyoydxnlc .gt_col_heading {
+:where(#eqvlxdbnom) .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -242,7 +249,7 @@ ul.task-list{list-style: none;}
   overflow-x: hidden;
 }
 
-#flyoydxnlc .gt_column_spanner_outer {
+:where(#eqvlxdbnom) .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -254,15 +261,15 @@ ul.task-list{list-style: none;}
   padding-right: 4px;
 }
 
-#flyoydxnlc .gt_column_spanner_outer:first-child {
+:where(#eqvlxdbnom) .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#flyoydxnlc .gt_column_spanner_outer:last-child {
+:where(#eqvlxdbnom) .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#flyoydxnlc .gt_column_spanner {
+:where(#eqvlxdbnom) .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -274,7 +281,7 @@ ul.task-list{list-style: none;}
   width: 100%;
 }
 
-#flyoydxnlc .gt_group_heading {
+:where(#eqvlxdbnom) .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -299,7 +306,7 @@ ul.task-list{list-style: none;}
   vertical-align: middle;
 }
 
-#flyoydxnlc .gt_empty_group_heading {
+:where(#eqvlxdbnom) .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -314,15 +321,15 @@ ul.task-list{list-style: none;}
   vertical-align: middle;
 }
 
-#flyoydxnlc .gt_from_md > :first-child {
+:where(#eqvlxdbnom) .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#flyoydxnlc .gt_from_md > :last-child {
+:where(#eqvlxdbnom) .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#flyoydxnlc .gt_row {
+:where(#eqvlxdbnom) .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -341,7 +348,7 @@ ul.task-list{list-style: none;}
   overflow-x: hidden;
 }
 
-#flyoydxnlc .gt_stub {
+:where(#eqvlxdbnom) .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -354,7 +361,7 @@ ul.task-list{list-style: none;}
   padding-right: 5px;
 }
 
-#flyoydxnlc .gt_stub_row_group {
+:where(#eqvlxdbnom) .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -368,11 +375,11 @@ ul.task-list{list-style: none;}
   vertical-align: top;
 }
 
-#flyoydxnlc .gt_row_group_first td {
+:where(#eqvlxdbnom) .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#flyoydxnlc .gt_summary_row {
+:where(#eqvlxdbnom) .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -382,16 +389,16 @@ ul.task-list{list-style: none;}
   padding-right: 5px;
 }
 
-#flyoydxnlc .gt_first_summary_row {
+:where(#eqvlxdbnom) .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#flyoydxnlc .gt_first_summary_row.thick {
+:where(#eqvlxdbnom) .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#flyoydxnlc .gt_last_summary_row {
+:where(#eqvlxdbnom) .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -401,7 +408,7 @@ ul.task-list{list-style: none;}
   border-bottom-color: #D3D3D3;
 }
 
-#flyoydxnlc .gt_grand_summary_row {
+:where(#eqvlxdbnom) .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -411,7 +418,7 @@ ul.task-list{list-style: none;}
   padding-right: 5px;
 }
 
-#flyoydxnlc .gt_first_grand_summary_row {
+:where(#eqvlxdbnom) .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -421,11 +428,11 @@ ul.task-list{list-style: none;}
   border-top-color: #D3D3D3;
 }
 
-#flyoydxnlc .gt_striped {
+:where(#eqvlxdbnom) .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#flyoydxnlc .gt_table_body {
+:where(#eqvlxdbnom) .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -434,7 +441,7 @@ ul.task-list{list-style: none;}
   border-bottom-color: #D3D3D3;
 }
 
-#flyoydxnlc .gt_footnotes {
+:where(#eqvlxdbnom) .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -448,7 +455,7 @@ ul.task-list{list-style: none;}
   border-right-color: #D3D3D3;
 }
 
-#flyoydxnlc .gt_footnote {
+:where(#eqvlxdbnom) .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -457,7 +464,7 @@ ul.task-list{list-style: none;}
   padding-right: 5px;
 }
 
-#flyoydxnlc .gt_sourcenotes {
+:where(#eqvlxdbnom) .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -471,7 +478,7 @@ ul.task-list{list-style: none;}
   border-right-color: #D3D3D3;
 }
 
-#flyoydxnlc .gt_sourcenote {
+:where(#eqvlxdbnom) .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -479,36 +486,36 @@ ul.task-list{list-style: none;}
   padding-right: 5px;
 }
 
-#flyoydxnlc .gt_left {
+:where(#eqvlxdbnom) .gt_left {
   text-align: left;
 }
 
-#flyoydxnlc .gt_center {
+:where(#eqvlxdbnom) .gt_center {
   text-align: center;
 }
 
-#flyoydxnlc .gt_right {
+:where(#eqvlxdbnom) .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#flyoydxnlc .gt_font_normal {
+:where(#eqvlxdbnom) .gt_font_normal {
   font-weight: normal;
 }
 
-#flyoydxnlc .gt_font_bold {
+:where(#eqvlxdbnom) .gt_font_bold {
   font-weight: bold;
 }
 
-#flyoydxnlc .gt_font_italic {
+:where(#eqvlxdbnom) .gt_font_italic {
   font-style: italic;
 }
 
-#flyoydxnlc .gt_super {
+:where(#eqvlxdbnom) .gt_super {
   font-size: 65%;
 }
 
-#flyoydxnlc .gt_two_val_uncert {
+:where(#eqvlxdbnom) .gt_two_val_uncert {
   display: inline-block;
   line-height: 1em;
   text-align: right;
@@ -517,31 +524,31 @@ ul.task-list{list-style: none;}
   margin-left: 0.1em;
 }
 
-#flyoydxnlc .gt_footnote_marks {
+:where(#eqvlxdbnom) .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-#flyoydxnlc .gt_asterisk {
+:where(#eqvlxdbnom) .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#flyoydxnlc .gt_slash_mark {
+:where(#eqvlxdbnom) .gt_slash_mark {
   font-size: 0.7em;
   line-height: 0.7em;
   vertical-align: 0.15em;
 }
 
-#flyoydxnlc .gt_fraction_numerator {
+:where(#eqvlxdbnom) .gt_fraction_numerator {
   font-size: 0.6em;
   line-height: 0.6em;
   vertical-align: 0.45em;
 }
 
-#flyoydxnlc .gt_fraction_denominator {
+:where(#eqvlxdbnom) .gt_fraction_denominator {
   font-size: 0.6em;
   line-height: 0.6em;
   vertical-align: -0.05em;
@@ -554,7 +561,7 @@ ul.task-list{list-style: none;}
       <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">week</th>
       <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">date</th>
       <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">topic</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">reading</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">prepare</th>
       <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">slides</th>
       <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">notes</th>
       <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">appex</th>
@@ -584,7 +591,7 @@ ul.task-list{list-style: none;}
     <tr><td class="gt_row gt_left">2</td>
 <td class="gt_row gt_left">30 August</td>
 <td class="gt_row gt_left">Design Principles of Data Analysis</td>
-<td class="gt_row gt_left"><svg aria-hidden="true" role="img" viewbox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;fill-opacity:0.1;position:relative;"><path d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"></path></svg></td>
+<td class="gt_row gt_left"><a href="https://sta-112-f22.github.io/reading/reading-02.html"><svg aria-hidden="true" role="img" viewbox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"></path></svg></a></td>
 <td class="gt_row gt_left"><svg aria-hidden="true" role="img" viewbox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;fill-opacity:0.1;position:relative;"><path d="M624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"></path></svg></td>
 <td class="gt_row gt_left"><svg aria-hidden="true" role="img" viewbox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;fill-opacity:0.1;position:relative;"><path d="M624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"></path></svg></td>
 <td class="gt_row gt_left"><svg aria-hidden="true" role="img" viewbox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;fill-opacity:0.1;position:relative;"><path d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z"></path></svg></td>
@@ -620,7 +627,7 @@ ul.task-list{list-style: none;}
     <tr><td class="gt_row gt_left">3</td>
 <td class="gt_row gt_left">6 September</td>
 <td class="gt_row gt_left">Simple Linear Regression</td>
-<td class="gt_row gt_left"><svg aria-hidden="true" role="img" viewbox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;fill-opacity:0.1;position:relative;"><path d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"></path></svg></td>
+<td class="gt_row gt_left"><a href="https://sta-112-f22.github.io/reading/reading-03.html"><svg aria-hidden="true" role="img" viewbox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"></path></svg></a></td>
 <td class="gt_row gt_left"><svg aria-hidden="true" role="img" viewbox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;fill-opacity:0.1;position:relative;"><path d="M624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"></path></svg></td>
 <td class="gt_row gt_left"><svg aria-hidden="true" role="img" viewbox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;fill-opacity:0.1;position:relative;"><path d="M624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"></path></svg></td>
 <td class="gt_row gt_left"><svg aria-hidden="true" role="img" viewbox="0 0 640 512" style="height:1em;width:1.25em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;fill-opacity:0.1;position:relative;"><path d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z"></path></svg></td>
@@ -985,7 +992,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
