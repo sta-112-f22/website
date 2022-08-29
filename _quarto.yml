@@ -19,7 +19,6 @@ execute:
 website:
   title: "Regression and Data Science"
   site-url: "https://sta-112-f22.github.io/website"
-  description-meta: "This course introduces data analysis through statistical computing in R, least-squares and logistic regression, model selection, and data visualization."
   navbar:
     pinned: true
     background: "#1F7349"
