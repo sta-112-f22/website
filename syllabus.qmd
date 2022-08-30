@@ -124,4 +124,4 @@ Grades conversion:
 -   No make-up assessments will be given.
 
 -   All regrade requests must be discussed with the professor within one week of receiving your grade.
-    There will be no grade changes after the final class.
+    There will be no grade changes after the final class. 
