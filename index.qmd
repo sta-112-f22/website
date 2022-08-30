@@ -13,7 +13,7 @@ sidebar: false
 <span></span>     | <span></span>     | <span></span>    | <span></span>    |  <span></span>      
 ------------------|-------------------|------------------|------------------|------------------ 
 Instructor        | [{{< var instructor.name >}}]({{< var instructor.url >}}) | <a href="mailto:{{< var instructor.email >}}" title="email">{{< fa envelope >}}</a> &nbsp; <a href="https://github.com/{{< var instructor.github >}}" title="GitHub">{{< fa brands github >}}</i></a> &nbsp; <a href="https://twitter.com/{{< var instructor.twitter >}}" title="Twitter">{{< fa brands twitter >}}</a> | <a href = "{{< var instructor.appointment_url > }}" >{{< var instructor.officehrs >}}</a> | Manchester 342
-TA               | {{< var ta.name >}} | <a href="mailto:{{< var ta.email >}}" title="email"><i class="fa fa-envelope"></i></a> | {{< var ta.time >}}| Kirby 120
+TA               | {{< var ta.name >}} | <a href="mailto:{{< var ta.email >}}" title="email"><i class="fa fa-envelope"></i></a> | {{< var ta.time >}}| {{< var ta.location >}}
 <span></span>                  | [Math & Stats Center](https://mathandstatscenter.wfu.edu/) | <a href="mailto:mathandstatscenter@wfu.edu" title="email"><i class="fa fa-envelope"></i></a> &nbsp; | By appointment | Kirby Hall 117
 
 ::: {.grid}
