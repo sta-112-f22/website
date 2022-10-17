@@ -88,8 +88,7 @@ Application exercises & slide annotations| 5%
 Midterm 01 | 20%
 Midterm 02 | 20%
 Check-ins | 20%  
-Homework | 10%
-Labs | 10%  
+Homework + Labs | 20%
 Final Project | 15%
 
 Grades conversion:
